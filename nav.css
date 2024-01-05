@@ -1,0 +1,41 @@
+.navbar {
+  background-color: #333; /* Navbar background color */
+  border-top-left-radius: 20px; /* Curved border radius */
+  border-top-right-radius: 20px; /* Curved border radius */
+  position: fixed; /* Fixed position to keep it at the top */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Align navbar items at the center */
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 10px; /* Adjust spacing between navbar items */
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Hover effect */
+.navbar li a:hover {
+  background-color: #555;
+}
+
+/* Additional adjustments for content below the navbar */
+body {
+    display:flexbox;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 1px; /* Adjust the padding-top to ensure content isn't hidden behind the navbar */
+}

@@ -1,0 +1,219 @@
+
+h1 {
+  color: #fffae4;
+}
+
+#moon-phase {
+  font-size: 24px;
+  color: #fffae4;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  /* Basic reset and navbar styling */
+/* Basic reset and navbar styling */
+.space{
+  background-size: cover;
+}
+.container {
+    text-align: center;
+    color: #fffae4;
+    justify-content: center;
+    align-items: center;
+    text-shadow: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Style moon info */
+.moon-info {
+    font-family: Arial, sans-serif;
+    background-color: #1111117a;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 10px #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+#moon-icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+  }
+ /*made by rahul(https://github.com/abhiyendru01)*/
+text{
+    color: #f4f4f4;
+    text-shadow: #f4f4f4;
+  }
+  footer {
+    
+      font-size: 14px;
+      bottom: 0;
+      background-color: #00000000; 
+      padding: 80px 50px 0px; 
+      font-size: 14px;
+      color: #fffae4;
+  }
+  .footer-content {
+    justify-content: flex-end;
+    font-size: 14px;
+    
+      font-size: 14px;
+      position: relative; 
+      bottom: 0;
+      background-color: #00000000; 
+      padding: 10px 20px 20px; 
+      font-size: 14px;
+      color: #fffae4;
+  }
+  footer a {
+    text-decoration: none;
+    color: inherit; /* Ensure the color matches the footer's text color */
+  }
+  @media only screen and (max-width: 768px) {
+    .background::before {
+      background-color: rgba(255, 255, 255, 0.9); /* Adjust background overlay color and opacity */
+    }
+    #moon-phase {
+      font-size: 20px;
+    }
+  
+    #illumination {
+      font-size: 16px;
+    }
+  
+    #moon-icon {
+      width: 80px;
+      height: 80px;
+    }
+    footer {
+      text-align: center;
+        font-size: 14px;
+        bottom: 0px;
+        background-color: #00000000; 
+        padding: 80px 70px 0px;
+        font-size: 14px;
+        color: #fffae4;
+    }
+    .footer-content {
+      font-size: 12px;
+      text-align: center;
+    text-justify: auto;
+      font-size: 14px;
+      position: absolute; 
+      bottom: 0;
+       
+      background-color: #00000000; 
+      padding: 1px 20px 20px; 
+      font-size: 14px;
+      color: #fffae4;
+    }
+  }
+  footer a {
+    text-decoration: none;
+    color: inherit; /* Ensure the color matches the footer's text color */
+  }
+  @media only screen and (max-width: 480px) {
+    .background::before {
+      background-color: rgba(255, 255, 255, 1); /* Adjust background overlay color and opacity */
+    }
+  
+    #moon-phase {
+      font-size: 18px;
+    }
+  
+    #illumination {
+      font-size: 14px;
+    }
+  
+    #moon-icon {
+      width: 60px;
+      height: 60px;
+    }
+    footer {
+      padding-bottom: 20px;
+      text-align: center;
+      text-justify:center;
+        font-size: 14px;
+        bottom: 20px;
+        background-color: #00000000; 
+        padding: 60px 20px 0px; 
+        font-size: 10px;
+        color: #fffae4;
+    }
+    .footer-content {
+      font-size: 10px;
+      text-align: center;
+    text-justify: auto;
+      font-size: 14px;
+      position: absolute; 
+      bottom: 0;
+      padding: auto;
+      background-color: #00000000; 
+      padding: 1px 20px 20px; 
+      font-size: 12px;
+      color: #fffae4;
+    }
+  }
+  .button{
+    box-sizing: content-box;
+  }
+  footer a{
+    text-decoration: none;
+    color:#fffae4; /* Ensure the color matches the footer's text color */
+  }
+  
+  .navbar {
+    background-color: #2d2d2d74;
+    backdrop-filter: blur(3px); 
+    height: 60px;/* Navbar background color */
+    border-bottom-left-radius: 100%; /* Curved border radius */
+    border-bottom-right-radius: 100%; /* Curved border radius */
+    position: fixed; /* Fixed position to keep it at the top */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it's above other elements */
+    top: 0; /* Place the navbar at the top */
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Align navbar items at the center */
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin: 0 10px; /* Adjust spacing between navbar items */
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Hover effect */
+  .navbar li a:hover {
+    background-color: #555;
+  }
+  .navlogo{
+    height:45px;
+  }
+  /* Additional adjustments for content below the navbar */
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px; /* Adjust the padding-top to ensure content isn't hidden behind the navbar */
+  }
+
+

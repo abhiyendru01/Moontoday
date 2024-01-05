@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="moonicon.png" rel="icon">
+    <link href="moonicon.png" rel="apple-touch-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Today's Moon</title>
+  <style>
+    /* Centering the button */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background: url(space2.jpg)repeat center center/cover;
+      font-family: Arial, sans-serif;
+    }
+    /* Styling the button */
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #434343af;
+      color: #fffae4;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    button:hover {
+      background: linear-gradient();
+      background-color: rgba(19, 19, 19, 0.633);
+      box-shadow:0 0 8px #fffae4;
+    }
+    @media only screen and (max-width: 768px) {
+    .background::before {
+      background-color: rgba(255, 255, 255, 0.9); /* Adjust background overlay color and opacity */
+    }
+  
+    #moon-phase {
+      font-size: 20px;
+    }
+  
+    #illumination {
+      font-size: 16px;
+    }
+  
+    #moon-icon {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .footer-content {
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .background::before {
+      background-color: rgba(255, 255, 255, 1); /* Adjust background overlay color and opacity */
+    }
+  
+    #moon-phase {
+      font-size: 18px;
+    }
+  
+    #illumination {
+      font-size: 14px;
+    }
+  
+    #moon-icon {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .footer-content {
+      font-size: 10px;
+    }
+  }
+  .button{
+    box-sizing: content-box;
+  }
+  footer {
+    text-align: center;
+    text-justify:center;
+    position: fixed;
+      font-size: 10px;
+      bottom: 0;
+      background-color: #00000000; 
+      padding: 50px 30px 10px; 
+      font-size: 14px;
+      color: #fffae4;
+    }
+    footer a{
+      color:inherit;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body  >
+  <div class="container">
+    <div class="moon-info">
+      
+      <a href="home.html">
+      <button  >Today's Moon </button>
+      </a>
+    </div>
+    <footer class="footer" >
+      Designed by <a href="https://abhiyendru.netlify.app">Rahul.R</a>
+    </footer>
+    </a>
+  </a>
+  </div>
+  <script src="suncalc.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+<!--made by rahul(https://github.com/abhiyendru01)-->
