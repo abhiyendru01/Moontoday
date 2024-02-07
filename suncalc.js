@@ -9,8 +9,6 @@ var PI   = Math.PI,
     acos = Math.acos,
     rad  = PI / 180;
 
-// sun calculations are based on http://aa.quae.nl/en/reken/zonpositie.html formulas
-
 
 // date/time constants and conversions
 
