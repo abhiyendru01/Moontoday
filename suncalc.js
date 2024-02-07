@@ -10,8 +10,6 @@ var PI   = Math.PI,
     rad  = PI / 180;
 
 
-// date/time constants and conversions
-
 var dayMs = 1000 * 60 * 60 * 24,
     J1970 = 2440588,
     J2000 = 2451545;
