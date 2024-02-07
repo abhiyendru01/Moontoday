@@ -19,7 +19,7 @@ function fromJulian(j)  { return new Date((j + 0.5 - J1970) * dayMs); }
 function toDays(date)   { return toJulian(date) - J2000; }
 
 
-var e = rad * 23.4397; // obliquity of the Earth
+var e = rad * 23.4397; 
 
 function rightAscension(l, b) { return atan(sin(l) * cos(e) - tan(b) * sin(e), cos(l)); }
 function declination(l, b)    { return asin(sin(b) * cos(e) + cos(b) * sin(e) * sin(l)); }
