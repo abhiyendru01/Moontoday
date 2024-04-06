@@ -1,10 +1,10 @@
 .navbar {
-  background-color: #333; /* Navbar background color */
-  border-top-left-radius: 20px; /* Curved border radius */
-  border-top-right-radius: 20px; /* Curved border radius */
-  position: fixed; /* Fixed position to keep it at the top */
-  width: 100%; /* Full width */
-  z-index: 1000; /* Ensure it's above other elements */
+  background-color: #333; 
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px; 
+  position: fixed; 
+  width: 100%; 
+  z-index: 1000; 
 }
 
 .navbar ul {
